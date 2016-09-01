@@ -2,5 +2,11 @@
 layout: default
 ---
 
-	<h1>iFree Code</h1>
-	<p>Lost of planents in the universe</p>
+    <ul>
+    	{% for item in site.categories.java %}
+		<li>
+			<a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+			<p>{{item.meta}}</p>
+		</li>
+    	{% endfor %}
+    </ul>
