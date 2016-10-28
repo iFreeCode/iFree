@@ -1,9 +1,9 @@
 ---
-layout:post
-title:数据维度和数据指标
-date: 2016-10-28
-categories:日志
-tag:数据
+layout:  post
+title:  数据维度和数据指标
+date:  2016-10-28
+categories:  日志
+tag:  数据
 ---
 
 
