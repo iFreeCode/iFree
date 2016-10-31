@@ -18,9 +18,11 @@ tag:  SHELL
 
 先贴出解决方法：
 vim 进到文件里面，输入 set ff=unix 回车，然后保存就可以了
+
 ```
 vim demo.sh
 set ff=unix
 wq
 ```
+
 ![样例](/styles/images/shell/sh^m-nosuchfile.png)
