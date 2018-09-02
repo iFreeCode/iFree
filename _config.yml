@@ -1,0 +1,5 @@
+defaults:
+  - scope:
+      path: "assets/jdk8_src"
+    values:
+      jdk: true
